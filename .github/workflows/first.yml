@@ -1,0 +1,10 @@
+name: Firtst Workflow
+on: workflow_dispatch
+jobs:
+  first-jon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo 'haha'
+      - name: Print hehee
+        run: echo 'hehee'
